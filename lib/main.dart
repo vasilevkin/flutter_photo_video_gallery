@@ -111,12 +111,12 @@ class PhotoAndVideoState extends State<PhotoAndVideo> {
               ),
               MaterialButton(
                 color: Colors.blue,
-                child: Text('Select Video from Gallery'),
+                child: Text('Play Video from Gallery'),
                 onPressed: imageSelectorGalleryVideo,
               ),
               MaterialButton(
                 color: Colors.yellow,
-                child: Text('Take Image from Camera'),
+                child: Text('Take Image or Video from Camera'),
                 onPressed: imageSelectorCamera,
               ),
               showSelectedAsset(selectedGalleryAsset),
